@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    max-width: 144rem;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container{
+    max-width: 37.5rem;
+    margin: 2rem auto;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    display: flex;
+    color: #fff;
+}
+
+.card{
+    margin: 3rem;
+}
+
+.card__img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card__heading{
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 2rem 0;
+}
+
+.card__main-text{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.card__amount{
+    display: flex;
+    font-size: 1.6rem;
+    margin: 1.5rem 0;
+    color: hsl(215, 51%, 70%);
+    padding-bottom: 1rem;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.card__amount-img{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+
+.card__amount h3 {
+    color: hsl(178, 100%, 50%);
+    margin-right: auto;
+}
+
+.card__author{
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    color: hsl(215, 51%, 70%);
+}
+.card__author-name{
+    color: #fff;
+}
+
+.card__authot-img{
+    width: 4rem;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin-right: 1.5rem;
+}
